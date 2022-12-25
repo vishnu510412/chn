@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+overflow: scroll;
+  color: #fff;
+}
+.app{
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer{
+
+  background: radial-gradient(50% 50% at 50% 50%, #010B36 0%, #01061A 83.33%);
+
+  height: 200vh;
+  width: 350px;
+  min-height: 300px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+
+}
+/* .loginSubtitle{
+  font-size: 1rem;
+  color: darkgoldenrod;
+  text-align: center;
+   margin-top: -80px;
+   width: 230px;
+ } */
+.nav{
+
+position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+gap: 200px;
+  color: #fff;
+margin-top
+: -580px;
+
+
+  padding: 0.5rem 1rem;
+
+}
+.left-icons{
+display: flex;
+
+justify-content: center;
+align-items: center;
+gap: 5px;
+}
+/* .left-icons{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+ 
+} */
+/* .left-icons ,
+.right-icon  {
+
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+
+ display: flex;
+justify-content: center;
+align-items: center;
+ gap: 5px;
+} */
+
+/* .right-icon {
+  margin-left: auto;
+  margin-right: 20rem;
+} */
+
+/* .top {
+
+display: flex;
+  width: 23.3%;
+} */
+.userdetails{
+display: flex;
+
+width: 162px;
+height: 45px;
+margin-top: 10px;
+margin-left: 10px;
+background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 125%);
+backdrop-filter: blur(5px);
+
+ 
+
+border-radius: 32px;
+
+}
+
+.userimage{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 26px;
+  height: 26px;
+
+  
+}
+
+.user{
+ 
+ 
+  display: flex;
+  
+  flex-direction: column;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+.giftbutton{
+
+
+width: 24px;
+height: 24px;
+}
+.cards{
+
+  width: 330px;
+  height: 350px;
+
+  border-radius: 1rem;
+
+  
+    display: flex;
+    flex-direction: column;
+
+
+      position: relative;
+  
+
+
+
+
+}
+.username{
+  width: 97px;
+height: 17px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 16px;
+color: #FFFFFF;
+}
+.uploadtime{
+  width: 36px;
+height: 12px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 8px;
+line-height: 12px;
+color: #FFFFFF;
+}
+.pill{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+  width: 310px;
+  height: 66px;
+
+ 
+  background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 125%);
+  backdrop-filter: blur(5px);
+   
+  
+  border-radius: 32px;
+margin-top: 220px;
+margin-left: 12px;
+margin-right: 12px;
+}
+
+.like{
+
+  width: 80px;
+  height: 36px;
+
+  
+  background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 125%);
+  backdrop-filter: blur(5px);
+
+  
+  border-radius: 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+.likeCount{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  text-shadow: 0px 0px 1px #FFFFFF;
+  color: #FFFFFF;
+}
+.like-1 ,.like-2{
+
+  display: flex;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+}
+
+.pills{
+display: flex;
+
+gap: 45px;
+}
+
+
+
+.bottom-navbar{
+position: fixed;
+width: 350px;
+height: 66px;
+bottom: 0;
+background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 125%);
+backdrop-filter: blur(10px);
+
+
+border-radius: 32px 32px 0px 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 45px;
+}
+.navbar-d{
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.homeButton{
+
+
+}
+
+.button-s{
+background: none;
+border: none;
+cursor: pointer;
+}
+.circle{
+
+width: 45px;
+height: 45px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+margin-right: 10px;
+
+
+
+background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 125%);
+backdrop-filter: blur(5px);
+ 
+
+border-radius: 32px;
+}
+
+.con-div{
+  display: flex;
+ justify-content: space-between;
+ 
+}
+.discoverButton{
+ 
+  
+}
+.uploadButton{
+
+}
+.dmSquare{
+  background: linear-gradient(152.97deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0) 125%);
+backdrop-filter: blur(5px);
+width: 45px;
+height: 45px;
+border-radius: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.post-a{
+  margin-top:-150px;
+}
+.post-b{
+  margin-bottom:-360px;
+}
+.temp-user-card{
+  display: flex;
+flex-direction: column;
+gap: 15px;
+}
